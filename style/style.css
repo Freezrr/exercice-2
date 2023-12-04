@@ -1,0 +1,75 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    width: 1440px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    width: 580px;
+    height: 420px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-radius: 15px;
+}
+
+.image-parfum{
+    flex-basis: 50%;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.contenu-texte{
+    flex-basis: 50%;
+    margin: 15px 25px 50px 25px;
+}
+
+h1{
+    width: 200px;
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+}
+
+p{
+    color: rgb(153, 153, 153);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.prix{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+}
+
+.prix1{
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+}
+
+.prix2{
+    text-decoration: line-through;
+    padding-left: 20px;
+}
+
+.cta {
+    font-family: 'Montserrat', sans-serif;
+    background: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 70px;
+    text-decoration: none;
+    position: relative;
+    bottom: 20px;
+}
+
+.cta:hover{
+    background: hsl(158, 36%, 28%);
+    cursor: pointer;
+}
